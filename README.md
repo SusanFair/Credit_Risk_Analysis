@@ -16,9 +16,9 @@ you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, a
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning. There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
 ##Over Sampling:
-#### Randon Sampling
+#### Randon Sampling![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
 
 
 #### SMOTE
-
+![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
 
