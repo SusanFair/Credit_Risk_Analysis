@@ -18,33 +18,51 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 ## Over Sampling:<br>
 #### Random Sampling<br>
-
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
 
 
 #### SMOTE<br>
-
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
 
 ## Under Sampling:<br>
 #### Under Sampling with ClusterCentroids<br>
-
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![ClusterCentroids](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/under_sampling_ClusterCentroids.PNG)
-
 
 
 ## Combination (Over and Under) Sampling 
 #### SMOTEENN<br>
-
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![SMOOTEENN](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/smooteenn.PNG)
 
 ## Ensemble Learners: <br>
 #### Balanced Random Forest Classifier
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![Balanced Random Forest](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest_imbalanced.PNG)
 
 
-
 #### Easy Ensemble Classifier<br>
+* balanced accuracy score
+* precision
+* recall score
+<br>
 ![Adaboost](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_adaboost.PNG)<br>
 
 #### Analysis Notebooks: Analysis performed can be found in the 
