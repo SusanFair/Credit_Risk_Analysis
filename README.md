@@ -45,19 +45,11 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 
 #### Easy Ensemble Classifier<br>
-![SMOOTEENN](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_adaboost.PNG)
+![Adaboost](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_adaboost.PNG)<br>
 
-
-#### Analysis Notebooks
-Analysis performed can be found in the 
+#### Analysis Notebooks: Analysis performed can be found in the 
 * [Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
-
-* [Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
-
-
-
-
-
+* [Credit Risk Ensemble Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
 
 
 
