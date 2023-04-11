@@ -40,7 +40,7 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 ## Ensemble Learners: <br>
 #### Balanced Random Forest Classifier
-![Balanced Random Forest](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/balanced_randon_forest_imbalanced.PNG)
+![Balanced Random Forest](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest_imbalanced.PNG)
 
 
 
