@@ -21,8 +21,8 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 * balanced accuracy score
 * precision
 * recall score
-<br>
-![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
+
+![Random Sampling](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
 
 
 #### SMOTE<br>
@@ -30,7 +30,7 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 * precision
 * recall score
 
-![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
+![SMOTEt](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
 
 ## Under Sampling:<br>
 #### Under Sampling with ClusterCentroids<br>
