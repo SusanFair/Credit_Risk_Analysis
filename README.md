@@ -17,7 +17,7 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 
 ## Over Sampling:<br>
-#### Randon Sampling<br>
+#### Random Sampling<br>
 
 ![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
 
@@ -26,33 +26,33 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 ![Alt text](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
 
+## Under Sampling:<br>
 #### Under Sampling with ClusterCentroids<br>
 
 ![ClusterCentroids](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/under_sampling_ClusterCentroids.PNG)
 
 
 
-#### Combination (Over and Under) Sampling with SMOTEENN<br>
+## Combination (Over and Under) Sampling 
+#### SMOTEENN<br>
 
 ![SMOOTEENN](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/smooteenn.PNG)
 
-## Predict Credit Risk: <br>
-#### Easy Ensemble Classifier<br>
-
-[Easy Ensemble AdaBoost Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/easy_ensemble_adaboost.ipynb)
-
-#### Analysis
-Analysis performed can be found in the 
-[Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
-
-
-#### Resources:
+## Ensemble Learners: <br>
 #### Balanced Random Forest Classifier
-[Balanced Random Forest Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/balanced_random_forest_imbalanced.ipynb)
+![Balanced Random Forest](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/balanced_randon_forest_imbalanced.PNG)
 
 
 
+#### Easy Ensemble Classifier<br>
+![SMOOTEENN](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_adaboost.PNG)
 
+
+#### Analysis Notebooks
+Analysis performed can be found in the 
+* [Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+
+* [Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
 
 
 
