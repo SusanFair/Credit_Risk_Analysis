@@ -1,11 +1,11 @@
 # Credit_Risk_Analysis
 
 ## Overview of the analysis: 
-In this analysis activity we are using several sampling mothods to train train and deliverer the most effective model. This analysis will include:
+In this analysis activity we are using several sampling mothods to train and deliverer the most effective model. This analysis will include:
 * Oversampling with RandomOverSampler & SMOTE algorithms,
 * Undersampling using the ClusterCentroids algorithm,
-* Combination of over- and undersampling with SMOTEENN algorithm, and 
-* Compare 2 machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier
+* Combination of over and undersampling with SMOTEENN algorithm, and 
+* 2 machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier
 
 The comparison of the 2 models used to reduce bias were then used to predict credit risk. 
 
