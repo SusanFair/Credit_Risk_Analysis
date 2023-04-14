@@ -73,11 +73,11 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 
 ## Summary: 
-In summary the overall precision numbers of all 6 methods were very good.  Recall scores varies across methods with SMOTE and SMOOTEENN being the lowest. 
+In summary the overall precision numbers of all 6 methods were good although some of the precision scores for high risk loans were quite low.  Recall scores varied across methods with SMOTE and Random Forest being the lowest. 
 
-The Combindation (Over and Under) Sampling results wer comparible with the others on precision however recall on high risk was .77 and low_risk was .58.  Good numbers especiall on the high risk decisions.
+The Combindation (Over and Under) Sampling with SMOTEENN results were comparible with the others on precision however recall on high risk was .77 and low_risk was .58.  Good numbers especially on the high risk decisions.
 
-The models really excelled however with the ensemble learning.  Radon Forest came in with precision numbers of .88 for high risk and 1.00 for low risk.  Recall numbers were lower however with .37 high risk and 1.00 for low risk.  This showed a weakness on the high risk decisions.
+The models really excelled however with the ensemble learning.  Radom Forest came in with precision numbers of .88 for high risk and 1.00 for low risk.  Putting it near the top.  Recall numbers were lower however with .37 high risk and 1.00 for low risk.  This showed a weakness on the high risk decisions.
 
 #### Recommendation
 The best overall scores were with the Easy Ensemble AdaBoost Classifier and this method would be the recommended model to use.
