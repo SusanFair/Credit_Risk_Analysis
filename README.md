@@ -17,53 +17,54 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 
 ## Over Sampling:<br>
-#### Random Sampling<br>
-* balanced accuracy score
-* precision
-* recall score
+#### Random Oversampling<br>
+* balanced accuracy score: .617
+* precision: avg .99
+* recall score: avg .60
 
-![Random Sampling](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_sampling.PNG)
+![Random Oversampling](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/random_oversampling.PNG)
 
 
-#### SMOTE<br>
-* balanced accuracy score
-* precision
-* recall score
+#### SMOTE Oversampling<br>
+* balanced accuracy score: .662
+* precision: avg .99
+* recall score: avg .69
 
-![SMOTEt](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
+![SMOTE](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/SMOTE.PNG)
 
 ## Under Sampling:<br>
 #### Under Sampling with ClusterCentroids<br>
-* balanced accuracy score
-* precision
-* recall score
+* balanced accuracy score: .545
+* precision: avg .99
+* recall score: avg .40
 
 ![ClusterCentroids](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/under_sampling_ClusterCentroids.PNG)
 
 
 ## Combination (Over and Under) Sampling 
 #### SMOTEENN<br>
-* balanced accuracy score
-* precision
-* recall score
+* balanced accuracy score: .677
+* precision: avg .99
+* recall score: avg .58
 
 ![SMOOTEENN](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/smooteenn.PNG)
 
 ## Ensemble Learners: <br>
 #### Balanced Random Forest Classifier
-* balanced accuracy score
-* precision
-* recall score
+* balanced accuracy score: .683
+* precision: avg 1.00
+* recall score: avg 1.00
 
 ![Balanced Random Forest](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest_imbalanced.PNG)
 
 
-#### Easy Ensemble Classifier<br>
-* balanced accuracy score
-* precision
-* recall score
+#### Easy Ensemble AdaBoost Classifier<br>
+* balanced accuracy score: .932
+* precision: avg .99
+* recall score: avg .94
 
 ![Adaboost](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble_adaboost.PNG)<br>
+
 
 #### Analysis Notebooks: Analysis performed can be found in the 
 * [Credit Risk Resampling Notebook](https://github.com/SusanFair/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
@@ -72,8 +73,13 @@ The results of the analysis were as follows.  We are looking at balanced accurac
 
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning. There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+In summary the overall precision numbers of all 6 methods were very good.  Recall scores varies across methods with SMOTE and SMOOTEENN being the lowest. 
 
- Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+The Combindation (Over and Under) Sampling results wer comparible with the others on precision however recall on high risk was .77 and low_risk was .58.  Good numbers especiall on the high risk decisions.
+
+The models really excelled however with the ensemble learning.  Radon Forest came in with precision numbers of .88 for high risk and 1.00 for low risk.  Recall numbers were lower however with .37 high risk and 1.00 for low risk.  This showed a weakness on the high risk decisions.
+
+#### Recommendation
+The best overall scores were with the Easy Ensemble AdaBoost Classifier and this method would be the recommended model to use.
+
+While the precision for high risk was a low .09 vs low risk of 1.00 this was offset by the recall numbers which were .92 for high risk and .94 for low risk.  This would indicate that the proportion of actual positives that were identified correctly was very high for high risk lowas.  Since these high risk loans would endanger the stability of the banking system this would be a key identifier in making a model selection.   And with a balanced accuracy score of .931 it also shows it's value.
